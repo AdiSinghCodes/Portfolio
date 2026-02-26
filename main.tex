@@ -1,0 +1,135 @@
+\documentclass[letterpaper,10pt]{article}
+\usepackage{latexsym}
+\usepackage{fontawesome}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{ragged2e}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+
+% Margins
+\usepackage[left=0.35in, right=0.35in, top=0.15in, bottom=0.05in]{geometry}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=black,
+}
+
+% Section header command
+\newcommand{\sectionheader}[1]{%
+    \vspace{3pt}
+    \noindent\textbf{\large #1}
+    \rule{\linewidth}{0.4pt}
+    \vspace{-2pt}
+}
+
+\begin{document}
+\pagestyle{empty}
+
+% Header
+\begin{center}
+    \textbf{\Huge Aditya Singh} \\
+    \vspace{1pt}
+    \normalsize
+    \RaggedRight
+    \faPhone \ 7304064579 \hspace*{\fill}
+    \faEnvelope \ \href{mailto:adityapsingh565@gmail.com}{adityapsingh565@gmail.com} \hspace*{\fill}
+    \faGithub \ \href{https://github.com/AdiSinghCodes}{AdiSinghCodes} \hspace*{\fill}
+    \faLinkedin \ \href{https://www.linkedin.com/in/aditya-singh-2b319b299}{Aditya Singh} \hspace*{\fill}
+    \faCode \ \href{https://leetcode.com/AdiSolver04}{AdiSolver04} \hspace*{\fill}
+    \faGlobe \ \href{https://adityasingh-portfolio.com}{Portfolio}
+\end{center}
+
+% Education Section
+\sectionheader{EDUCATION}
+\begin{itemize}[leftmargin=*,label=\textbullet, noitemsep, topsep=0pt, partopsep=0pt]
+    \item \textbf{Vidyalankar Institute of Technology} \hfill \textbf{August 2023 - May 2027} \\
+    \textit{Bachelor of Technology - Computer Engineering; GPA: 9.08} \hfill Mumbai, India \\
+    \textit{Courses:} Operating Systems, Data Structures, Analysis Of Algorithms, Artificial Intelligence, Computer Networks, Databases, Machine Learning.
+\end{itemize}
+
+% Skills Summary Section
+\sectionheader{SKILLS SUMMARY}
+\begin{itemize}[leftmargin=*,label=\textbullet, noitemsep, topsep=0pt, partopsep=0pt]
+    \item \textbf{Languages/Technologies:} Python, JavaScript, SQL, JAVA
+    \item \textbf{Frameworks:} HTML5, CSS3, React.js, Node.js, Flask, Express.js, Tailwind CSS, REST APIs
+    \item \textbf{Databases:} SQLite, PostgreSQL, MongoDB
+    \item \textbf{ML \& Data:} TensorFlow, Scikit-learn, NumPy, Pandas, NLTK, Matplotlib, CNN, RNN, LangChain, RAG
+    \item \textbf{Soft Skills:} Leadership, Event Management, Public Speaking, Time Management
+\end{itemize}
+
+% Experience Section
+\sectionheader{EXPERIENCE}
+\begin{itemize}[leftmargin=*,label=\textbullet, noitemsep, topsep=0pt, partopsep=0pt]
+    \item \textbf{Ministry of Defence – SIH} \hfill \textbf{Sep 2024 – Dec 2024 (4 mos)} \\
+    \textit{Team Leader – Government Of India 2024 (Finalist)} \hfill Mumbai, Maharashtra, India $\cdot$ Remote
+    \begin{itemize}[leftmargin=0.75cm,label=\textbullet, noitemsep, topsep=0pt, partopsep=0pt]
+        \item Led a team to the Grand Finale of Smart India Hackathon 2024, selected among the top \textbf{2.4\%} of participants nationwide.
+        \item Tackled the \textbf{Women Safety Analytics} problem statement from \textbf{Bharat Electronics Limited (BEL)}.
+        \item Developed an innovative solution to enhance women's safety through advanced surveillance and real-time threat detection.
+    \end{itemize}
+
+    \vspace{1pt}
+
+    \item \textbf{S3K Technologies} \hfill \textbf{Jan 2026 – June 2026 (6 mos)} \\
+    \textit{AI Analyst Intern} \hfill USA $\cdot$ Remote
+    \begin{itemize}[leftmargin=0.75cm,label=\textbullet, noitemsep, topsep=0pt, partopsep=0pt]
+        \item Developed \textbf{agentic AI solutions} for \textbf{MEDCOMM} client, automating complex workflows and intelligent document processing for healthcare professionals.
+        \item Designed an \textbf{AI-powered interactive learning book} with \textbf{NLP} and personalized tutoring for students.
+        \item Created \textbf{50+ hands-on labs} and training modules for AI programs using Google Workspace and Microsoft Copilot.
+    \end{itemize}
+\end{itemize}
+
+% Projects Section
+\sectionheader{PROJECTS}
+\begin{itemize}[leftmargin=*,label=\textbullet, noitemsep, topsep=0pt, partopsep=0pt]
+    \item \textbf{Abhayam - Women Safety CCTV Analytics Software} \quad \href{https://github.com/AdiSinghCodes/Abhayam-Women-Safety-CCTV-Analytics-Software.git}{\underline{Repository Link}} \hfill \textbf{Dec 2024}
+    \begin{itemize}[leftmargin=0.75cm,label=$\circ$, noitemsep, topsep=0pt, partopsep=0pt]
+        \item Developed an \textbf{AI-powered CCTV analytics} solution for women's safety under \textbf{Ministry of Defence} guidance.
+        \item Utilized \textbf{computer vision} for \textbf{real-time threat detection} and gender/gesture analysis.
+        \item Our software aims to decrease the threat against women and provide instant justice.
+    \end{itemize}
+
+    \vspace{1pt}
+
+    \item \textbf{ParenthoodAI - RAG-Powered Support System for ADHD \& Autism Parents} \quad \href{https://github.com/AdiSinghCodes/ParenthoodAI---RAG-Powered-Support-System-for-ADHD-Autism-Parents.git}{\underline{Repository Link}} \hfill \textbf{June 2025}
+    \begin{itemize}[leftmargin=0.75cm,label=$\circ$, noitemsep, topsep=0pt, partopsep=0pt]
+        \item Built \textbf{RAG chatbot} with \textbf{Qdrant}, \textbf{Neo4j} knowledge graphs, serving \textbf{20+ languages} with multimodal I/O.
+        \item Developed full-stack app using \textbf{React, TypeScript, Node.js}, \textbf{MongoDB}, \textbf{Groq API}, and \textbf{Google Gemini}.
+        \item Created interactive child safety learning modules, deployed via \textbf{Docker} production pipeline.
+    \end{itemize}
+
+    \vspace{1pt}
+
+    \item \textbf{Facebook Friend Recommendation - Graph Mining} \quad \href{https://github.com/AdiSinghCodes/Facebook-Friend-Recommendation-Graph-Mining.git}{\underline{Repository}} $|$ \href{https://facebook-friend-recommendation-graph-mining-jdhh3za4cvgj6qtapp.streamlit.app/}{\underline{Live Demo}} \hfill \textbf{Jan 2026}
+    \begin{itemize}[leftmargin=0.75cm,label=$\circ$, noitemsep, topsep=0pt, partopsep=0pt]
+        \item Engineered \textbf{54 graph features} from \textbf{1.86M nodes} and \textbf{9.43M edges} using \textbf{NetworkX}, \textbf{PageRank}, \textbf{HITS}, and \textbf{SVD}.
+        \item Achieved \textbf{91.8\% F1-Score} and \textbf{93\% AUC-ROC} using \textbf{Random Forest}, handling cold start problem.
+        \item Deployed \textbf{Streamlit} app for real-time recommendations, processing \textbf{18.8M samples} with top-10 ranked predictions.
+    \end{itemize}
+
+    \vspace{1pt}
+
+    \item \textbf{Boleto-Connect - Payroll Management System (Consultancy)} \quad \href{https://github.com/AdiSinghCodes/Boleto-Connect.git}{\underline{Repository Link}} \hfill \textbf{Sept 2024}
+    \begin{itemize}[leftmargin=0.75cm,label=$\circ$, noitemsep, topsep=0pt, partopsep=0pt]
+        \item Built \textbf{PERN} stack (\textbf{PostgreSQL, Express, React, Node.js}) for \textbf{Boleto Vadapav} automating \textbf{payroll} workflows.
+        \item Implemented \textbf{Google OAuth}, \textbf{JWT}, \textbf{role-based access control} for employee and manager workflows.
+        \item Designed \textbf{RESTful APIs} with \textbf{Express.js} and responsive UI using \textbf{React} and \textbf{Bootstrap}.
+    \end{itemize}
+\end{itemize}
+
+% Achievements and Leadership Section
+\sectionheader{ACHIEVEMENTS AND LEADERSHIP}
+\begin{itemize}[leftmargin=*,label=\textbullet, noitemsep, topsep=0pt, partopsep=0pt]
+    \item \textbf{Oracle Cloud Infrastructure 2025 Certified Generative AI Professional}, skilled in LLMs, RAG, Semantic Search, Vector Databases, and LangChain.
+    \item Completed \textbf{AWS Cloud Practitioner Essentials} certification, gaining expertise in cloud computing fundamentals and AWS services (Dec 2025).
+    \item Won \textbf{1st Prize} at \textbf{Byte-Battle}, organized by the IETE Committee at Vidyalankar Institute of Technology, Mumbai.
+    \item Secured \textbf{2nd Prize} at \textbf{Codethon}, outperforming 100+ teams through innovative problem-solving and teamwork.
+    \item Mentored a team at \textbf{Toyota Hackathon 2025}, guiding development of a \textbf{Driving Angle App} with technical direction and strategic insights.
+    \item Solved \textbf{200+ problems} on \textbf{LeetCode}, demonstrating strong problem-solving skills in data structures and algorithms.
+    \item Completed freelance projects for companies including \textbf{Boletto Vadapav} and \textbf{Nuvance Technologies}.
+\end{itemize}
+
+\end{document}
