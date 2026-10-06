@@ -631,8 +631,8 @@ body {
 /* Experiences Grid */
 .experiences-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
     margin-bottom: 40px;
     max-width: 100%;
     align-items: center;
